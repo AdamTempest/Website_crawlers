@@ -1,5 +1,5 @@
-# Efficient Search
+# Effective Search
 
-This repository provide you with a set of tools to extract required data from web.
+A collection of tools from this repository can be used to find the information you need online.
 
-With these, you can create your own proxy chain or search something specific that is extremely hard to find in the sea of information.
+With these, you can create your own proxy chain or search for a certain term that is challenging to find in the sea of information.
