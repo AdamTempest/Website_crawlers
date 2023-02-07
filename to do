@@ -1,0 +1,8 @@
+to do
+
+[] - Send Requests using proxy with python
+[] - Extension that save open tabs in cache and close them to save ram
+   - it will show a list of saved tabs in the form of tree when clicked
+   - It must be able to save and reopen tabs in the exact state of the tab just before it was closed
+[] - Crawl the comic website and download every chapter of one selected comick
+

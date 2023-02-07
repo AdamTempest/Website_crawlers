@@ -25,6 +25,7 @@ def getThecontent(tag):
 
 # main function
 def crawl(url):
+    column = [] # ip, port, code, country, provider, google, https, other
     html = requests.get(url).text  # download_url
     soup = BeautifulSoup(html, 'html.parser')
     
@@ -34,8 +35,9 @@ def crawl(url):
             if (isProxyData(str(data))):
                 for col in data.find_all('td'):
                     content = getThecontent(str(col))
+                    column.append(content)
                     logging.info(f'Adding to db: {content}')
-                    f.write(f'{content}:')
+                f.write(f'{column[6]} http://{column[0]}:{column[1]}')
                 f.write('\n')
             else:
                 pass
